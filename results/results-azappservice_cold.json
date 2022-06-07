@@ -1,0 +1,30 @@
+{
+  "testDuration": {
+    "data": 10092.892946,
+    "comment": "Total duration of test"
+  },
+  "numberOfUsers": {
+    "data": 1,
+    "comment": "Number of simulated users"
+  },
+  "requestRate": {
+    "data": 10.403360122987676,
+    "comment": "Number of requests per second"
+  },
+  "failedRate": {
+    "data": 0,
+    "comment": "Rate of failed requests"
+  },
+  "avgRequestDuration": {
+    "data": 96.10462089523816,
+    "comment": "Average duration to make a request and receive it"
+  },
+  "maxRequestDuration": {
+    "data": 457.224897,
+    "comment": "Maximum duration to make a request and receive it"
+  },
+  "minRequestDuration": {
+    "data": 85.565213,
+    "comment": "Minimum duration to make a request and receive it"
+  }
+}

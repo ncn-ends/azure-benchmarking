@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppService", "AppService\AppService.csproj", "{F261DE3A-0267-44D2-AB6F-6B20D47BC7BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function", "Function\Function.csproj", "{CEDE03E6-1A2E-4A1A-A8F6-CF23A73D7679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F261DE3A-0267-44D2-AB6F-6B20D47BC7BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F261DE3A-0267-44D2-AB6F-6B20D47BC7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F261DE3A-0267-44D2-AB6F-6B20D47BC7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F261DE3A-0267-44D2-AB6F-6B20D47BC7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDE03E6-1A2E-4A1A-A8F6-CF23A73D7679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDE03E6-1A2E-4A1A-A8F6-CF23A73D7679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDE03E6-1A2E-4A1A-A8F6-CF23A73D7679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDE03E6-1A2E-4A1A-A8F6-CF23A73D7679}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

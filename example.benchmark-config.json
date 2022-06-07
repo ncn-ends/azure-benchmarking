@@ -1,0 +1,10 @@
+{
+  "azfunc": {
+    "url": "https://<domain>.azurewebsites.net/api/<endpoint>?code=<apikey>",
+    "output": "results/results-azfunc_test.json"
+  },
+  "azappservice": {
+    "url": "https://<domain>.azurewebsites.net/<endpoint>",
+    "output": "results/results-azappservice_test.json"
+  }
+}
