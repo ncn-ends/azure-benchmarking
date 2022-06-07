@@ -75,3 +75,7 @@ To see the raw results for the tests, view them in `results/` directory from pro
 
 - The project requires [k6](https://k6.io/) to be installed. k6 is an open source CLI tool that makes load testing easy.
 - Just run `runbenchmarks.sh` at project root.
+
+## Authors
+
+- [@ncn-ends](https://www.github.com/ncn-ends)
