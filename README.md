@@ -24,14 +24,13 @@ This project uses k6 to perform the benchmarks. Despite k6 being a load testing 
 
 To see the raw results for the tests, view them in `results/` directory from project root.
 
-### Cold
-- These tests were performed after a long period (>6 hours) of no usage.
-
-#### Azure Functions
 
 | Service | Test Duration | Virtual Users | Avg Requests/sec   | % of Requests Failed | Avg Duration Per Request (µs) | Max Duration Per Request (µs) | Min Duration Per Request (µs) |
 | ---- | ----------------- | ------------------ | ------------------ | --------------- | ----------------------- | ----------------------- | ----------------------- |
 | Azure Functions (Cold) | 10007.583986      | 1                  | 7.4943163209942005 | 0               | 133.40826494666672      | 2711.18654              | 87.01134                |
+| Azure App Service (Cold) | 10092.892946      | 1                  | 10.403360122987676 | 0               | 96.10462089523816       | 457.224897              | 85.565213               | 
+| Azure Functions (Warm) | 10068.812389      | 1                  | 9.435074994920535 | 0               | 105.9618635578947       | 448.757452              | 92.192618               |
+| Azure App Service (Warm) | 10009.351047      | 1                  | 10.09056426592928 | 0               | 99.08007670297029       | 545.456113              | 88.971413               | 
 
 #### Azure App Service
 | Test Duration | Virtual Users | Avg Requests/sec   | % of Requests Failed | Avg Duration Per Request (µs) | Max Duration Per Request (µs) | Min Duration Per Request (µs) |
