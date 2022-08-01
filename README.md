@@ -29,9 +29,9 @@ To see the raw results for the tests, view them in `results/` directory from pro
 
 #### Azure Functions
 
-| Test Duration | Virtual Users | Avg Requests/sec   | % of Requests Failed | Avg Duration Per Request (µs) | Max Duration Per Request (µs) | Min Duration Per Request (µs) |
-| ----------------- | ------------------ | ------------------ | --------------- | ----------------------- | ----------------------- | ----------------------- |
-| 10007.583986      | 1                  | 7.4943163209942005 | 0               | 133.40826494666672      | 2711.18654              | 87.01134                |
+| Service | Test Duration | Virtual Users | Avg Requests/sec   | % of Requests Failed | Avg Duration Per Request (µs) | Max Duration Per Request (µs) | Min Duration Per Request (µs) |
+| ---- | ----------------- | ------------------ | ------------------ | --------------- | ----------------------- | ----------------------- | ----------------------- |
+| Azure Functions (Cold) | 10007.583986      | 1                  | 7.4943163209942005 | 0               | 133.40826494666672      | 2711.18654              | 87.01134                |
 
 #### Azure App Service
 | Test Duration | Virtual Users | Avg Requests/sec   | % of Requests Failed | Avg Duration Per Request (µs) | Max Duration Per Request (µs) | Min Duration Per Request (µs) |
