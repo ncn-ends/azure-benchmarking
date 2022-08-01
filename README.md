@@ -34,18 +34,6 @@ To see the raw results for the tests, view them in `results/` directory from pro
 - Cold indicates these tests were performed after a long period (>6 hours) of no usage.  
 - Warm indicates these tests were performed right after the cold tests, after a few dry runs.
 
-#### Azure Functions
-
-| Test Duration | Virtual Users | Avg Requests/sec  | % of Requests Failed | Avg Duration Per Request (µs) | Max Duration Per Request (µs) | Min Duration Per Request (µs) |
-| ----------------- | ------------------ | ----------------- | --------------- | ----------------------- | ----------------------- | ----------------------- |
-| 10068.812389      | 1                  | 9.435074994920535 | 0               | 105.9618635578947       | 448.757452              | 92.192618               |
-
-#### Azure App Service
-
-| Test Duration | Virtual Users | Avg Requests/sec  | % of Requests Failed | Avg Duration Per Request (µs) | Max Duration Per Request (µs) | Min Duration Per Request (µs) |
-| ----------------- | ------------------ | ----------------- | --------------- | ----------------------- | ----------------------- | ----------------------- |
-| 10009.351047      | 1                  | 10.09056426592928 | 0               | 99.08007670297029       | 545.456113              | 88.971413               | 
-
 ## Usage
 
 ### Deployment
